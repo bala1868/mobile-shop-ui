@@ -1,0 +1,141 @@
+*{
+   
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: linear-gradient(to left, #0A0A0A, #3D3215, #D4AF37);
+
+}
+
+
+.bg-dark {
+    background: linear-gradient(90deg, #0A0A0A, #29220F, #8C6508) !important;
+}
+.bg-primary{
+      background: linear-gradient(
+        120deg,
+        #0A0A0A 0%,
+        #211C10 55%,
+        #59451A 100%
+    );
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.navbar-brand{
+    width: 60px;
+    height: 60px;
+}
+.navbar-brand img{
+    width: 100%;
+    height: 100%;
+}
+.primary{
+   color: #f3f3f3 ;
+}
+.nav-link{
+    transition: 0.2s;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+.navbar-brand:hover,
+.nav-link:hover
+{
+    .active{
+        color: #f3f3f3;
+    }
+    color:  #ffcc02;
+}
+.active{
+      color: #ffaf02;
+}
+.nav-icon-img
+{
+    width: 100%;
+    height: 100%;
+    /* color: white; */
+}
+
+.hero-section {
+    /* height: 300px; */
+    box-shadow: 0px 18px 50px #464444;
+}
+
+.btn{
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: translateX(19px);
+    color:#ffaf02;;
+}
+.brand-card {
+    display: block;
+    padding: 22px 10px;
+    text-decoration: none;
+    color: #F7E7A9;
+    background: linear-gradient(135deg, #171717, #29220F);
+    border: 1px solid #8C6508;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.brand-card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 18px 50px #464444;
+}
+
+
+/* product card*/
+
+.card-img-top{
+    border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+.card
+{
+    background: linear-gradient(135deg, #171717, #29220F);
+    color: #F5F5F5;
+    border: 1px solid #8C6508;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0px 18px 50px #464444;
+    transition: 0.4s ease-out;
+}
+.card:hover{
+
+    transform: scale(1.02);
+}
+.card-link:hover
+{
+   transform: scale(1.2);
+}
+.products  {
+    width: 100%;
+}
+
+
+.choose-card {
+    background: linear-gradient(135deg, #171717, #29220F);
+    color: #F5F5F5;
+    border: 1px solid #8C6508;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0px 18px 50px #272727;
+    transition: 0.4s ease-out;
+}
+
+.choose-card:hover {
+    transform: translateY(-8px);
+}
+
+.footer-container{
+     background: linear-gradient(135deg, #171717, #29220F);
+    color: #F5F5F5;
+    overflow: hidden;
+    box-shadow: 0px 18px 50px #272727;
+    
+}
